@@ -1,6 +1,6 @@
 import { Jogo } from "../model/Jogo";
 
-export interface IGameController {
+export interface JogoRepository {
   adicionar(game: Jogo): void;
   atualizar(id: number, updatedGame: Jogo): void;
   listar(): Jogo[];
